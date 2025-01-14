@@ -1,19 +1,11 @@
-import logo from './assets/provisional.png';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import AppRoutes from "./Routes";
 
-function App() {
-  return (
-    <section className='dashboardSection'>
-      <div className='dash_Container'>
-        <img src={logo} className='App-logo' alt='logo'/>
-        <div>
-        <button>Realizar nuevo avalúo</button>
-        <button>Ver avalúos</button>
-        </div>
-      </div>
-
-    </section>
-  );
-}
+const App = () => (
+  <Router>
+    <AppRoutes />
+  </Router>
+);
 
 export default App;
