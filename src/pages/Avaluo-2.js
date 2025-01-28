@@ -1,14 +1,14 @@
 import React from "react";
-import Home from "./homeButton";
+import Home from "../components/homeButton";
 import { useNavigate } from "react-router-dom";
 
-function Avaluo3() {
-  const navigate = useNavigate();
-  return (
+const Avaluo2= () => {
+    const navigate = useNavigate();
+    return (
     <>
-    <section className='Avaluo3-Container'>
-        <div className='Avaluo3-title'>
-          <h1>Avaluo3</h1>
+    <section className='Avaluo2-Container'>
+        <div className='Avaluo2-title'>
+          <h1>Avaluo2</h1>
           <div>
           <button onClick={()=> navigate("/")}>Nuevo Avaluo</button>
           <button onClick={()=> navigate("/")}>Ver avaluos</button>
@@ -21,4 +21,4 @@ function Avaluo3() {
   );
 }
 
-export default Avaluo3;
+export default Avaluo2;

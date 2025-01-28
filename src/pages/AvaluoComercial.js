@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./homeButton";
+import Home from "../components/homeButton";
 import { useNavigate } from "react-router-dom";
 
 const AvaluoComercial = () => {

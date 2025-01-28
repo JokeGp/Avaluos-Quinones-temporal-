@@ -1,9 +1,9 @@
 import React from 'react';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
-import Home from './components/home';
-import AvaluoComercial from './components/AvaluoComercial';
-import Avaluo2 from './components/Avaluo-2';
-import Avaluo3 from './components/Avaluo-3';
+import Home from './pages/home';
+import AvaluoComercial from './pages/AvaluoComercial';
+import Avaluo2 from './pages/Avaluo-2';
+import Avaluo3 from './pages/Avaluo-3';
 import NuevoAvaluo from './components/NuevoAvaluo';
 import VerAvaluo from './components/VerAvaluo';
 
